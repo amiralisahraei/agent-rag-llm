@@ -12,6 +12,7 @@ This project implements an **Agents-based Retrieval-Augmented Generation (RAG) s
 - **Tavily Search API**: Enables real-time web-based retrieval to provide updated and fact-based responses.
 - **Agents Framework**: Implements multiple agents for handling different tasks, such as document retrieval, knowledge augmentation, and query response.
 - **FAISS Vector Database**: Efficiently indexes and searches documents for relevant content.
+- **Gradio Interface**: Provides an easy-to-use, interactive interface for users to input queries and receive responses from the system.
 
 ## Components
 ### 1. Large Language Model (LLM)
@@ -30,4 +31,8 @@ This project is **agent-based**, meaning it consists of multiple specialized age
 ### 4. Tavily Search API
 - Provides **real-time** web search capabilities to retrieve **fresh information**.
 - Ensures the system remains **updated** with the latest facts and knowledge.
+
+### 5. Gradio Interface
+- Uses **Gradio** to create a user-friendly interface, allowing users to interact with the RAG system easily by typing queries and viewing generated responses.
+- Provides a simple web interface to interact with the model without needing to run scripts manually.
 
